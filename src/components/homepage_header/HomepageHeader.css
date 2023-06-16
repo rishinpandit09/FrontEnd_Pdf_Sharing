@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-upload {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.nav-link {
+  margin-left: 10px;
+}
+
+/* Optional: Adjust the size and color of the profile icon */
+.profile i {
+  font-size: 20px;
+    color: #333;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
